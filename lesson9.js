@@ -10,7 +10,7 @@ var people = [
     { name: "Betty", age: 37 }
     ]
 
-var nameFilter = function(filteredname) {
+var nameFilter = function(filteredName) {
 
     for (let i = 0; i < people.length; i++) {
         let name = people[i].name
@@ -20,4 +20,4 @@ var nameFilter = function(filteredname) {
     }
 }
 
-nameFilter("Roger")
+nameFilter("Betty")
