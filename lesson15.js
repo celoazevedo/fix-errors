@@ -18,6 +18,7 @@ var nameFilter = function(filteredName, anonymousFunction) {
         let currentName = people[i].name
         if (currentName != filteredName) {
             results.push(currentName)
+            anonymousFunction()
         }
     }
 
@@ -28,3 +29,10 @@ var filteredNames = nameFilter("Betty", function(name) {
     console.log("This Ran")
 })
 console.log(filteredNames)
+
+// function drew(){
+
+// }
+// var draw = function(){
+
+// }
